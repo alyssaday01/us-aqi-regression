@@ -1,24 +1,61 @@
-# Air Quality Prediction (US Regions)
+# 🌿 Air Quality Prediction (U.S. Region)
 
-## Project Overview
-This project explores various regression approaches to predict daily **Air Quality Index (AQI)**. Using a large dataset with features like location, pollutants, population, and seasonality, we trained and evaluated three models to see which best captures AQI trends.
+**Type:** Regression Project  
+**Date:** April 2025 
 
-## Data
-- Source: Kaggle Air Quality Dataset
-- Main Features: Latitude/Longitude, Defining Parameter (pollutant type), Population, Density, Date, etc.
-- Size: ~5.6 million rows
+This project predicts daily Air Quality Index (AQI) across U.S. regions using Linear Regression, Ridge Regression, and Random Forest. It explores the impact of geographic, demographic, and pollution data on air quality trends.
 
-## Experiments & Key Results
-1. **Linear Regression**
-   - RMSE: 34.53
-   - Provides a baseline for performance.
-2. **Ridge Regression**
-   - RMSE: 34.42
-   - Slight improvement; regularization didn’t fully address AQI complexity.
-3. **Random Forest Regression**
-   - RMSE: 30.82
-   - Best performer, captures nonlinear relationships and feature interactions.
+🧪 Built in a Jupyter Notebook environment using Python libraries (pandas, numPy, scikit-learn, matplotlib).  
 
-## Conclusion
-- **Random Forest** achieved the most accurate predictions, indicating AQI depends on complex, nonlinear factors.
-- Adding features like seasonal or location-specific interactions improved performance marginally in linear models but significantly helped ensemble methods.
+---
+
+## 📁 Project Files
+
+- [`Air_Quality_Prediction.ipynb`]([aqi_prediction.ipynb](https://github.com/alyssaday01/us-aqi-regression/blob/main/aqi_prediction.ipynb): Full notebook with data processing, modeling, and results.
+- [`/images`](link-to-images-folder): Visualizations used in the notebook and portfolio site.
+
+---
+
+## 📁 Dataset 
+- **Source:** [U.S. Air Quality (1980–Present) – Kaggle](https://www.kaggle.com/datasets/calebreigada/us-air-quality-1980present)
+- **Time Range:** 1980 - Present
+- **Details:** Includes daily AQI, pollutant type, location data (lat/lng), and demographics.
+
+---
+
+## 🧪 Models Used
+
+- Linear Regression
+- Ridge Regression
+- Random Forest Regressor
+
+---
+
+## 🔑 Highlights
+
+- Created time-based and interaction features (e.g., population × density).
+- Used train/test splits and evaluated models using RMSE.
+- Found Random Forest outperformed other models in capturing AQI variation.
+
+---
+
+## 🔗 Project Repository
+
+[View this project on GitHub]([https://github.com/yourusername/your-repo-name](https://github.com/alyssaday01/us-aqi-regression))
+
+---
+
+## 📷 Visuals (Optional Preview)
+
+![Distribution Graph of Air Quality Index](/Users/alyssaday/DataMining/Projects/Project_3/Visualizations/aqi_distribution.png)
+
+![Correlation Matrix of Numeric Features](/Users/alyssaday/DataMining/Projects/Project_3/Visualizations/aqi_heatmap.png)
+
+![Model Performance Comparison](/Users/alyssaday/DataMining/Projects/Project_3/Visualizations/aqi_model.png)
+
+---
+
+## 🧾 Credits
+
+- Data by Caleb Reigada via Kaggle  
+- Project by Alyssa Day (2025)
