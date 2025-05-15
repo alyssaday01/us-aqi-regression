@@ -11,7 +11,7 @@ This project predicts daily Air Quality Index (AQI) across U.S. regions using Li
 
 ## 📁 Project Files
 
-- [`Air_Quality_Prediction.ipynb`](aqi_prediction.ipynb)(https://github.com/alyssaday01/us-aqi-regression/blob/main/aqi_prediction.ipynb):  Full notebook with data processing, modeling, and results.
+- [`aqi_prediction_final.ipynb`](https://github.com/alyssaday01/us-aqi-regression/blob/main/aqi_prediction_final.ipynb):  Full notebook with data processing, modeling, and results.
 
 ---
 
