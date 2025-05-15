@@ -40,7 +40,7 @@ This project predicts daily Air Quality Index (AQI) across U.S. regions using Li
 
 ## 🔗 Project Repository
 
-[View this project on GitHub]([https://github.com/yourusername/your-repo-name](https://github.com/alyssaday01/us-aqi-regression))
+[`View this project on GitHub`](https://github.com/alyssaday01/us-aqi-regression)
 
 ---
 
