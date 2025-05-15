@@ -45,7 +45,7 @@ This project predicts daily Air Quality Index (AQI) across U.S. regions using Li
 
 ---
 
-## 📷 Visuals (Optional Preview)
+## 📷 Visuals
 
 ![Distribution Graph of Air Quality Index](/Users/alyssaday/DataMining/Projects/Project_3/Visualizations/aqi_distribution.png)
 
