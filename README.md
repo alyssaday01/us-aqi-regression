@@ -50,6 +50,8 @@ This project predicts daily Air Quality Index (AQI) across U.S. regions using Li
 
 ![Correlation Matrix of Numeric Features](Visualizations/aqi_heatmap.png)
 
+![Feature Importance Histogram](Visualizations/Feature-Importance.png)
+
 ![Model Performance Comparison](Visualizations/aqi_model.png)
 
 ---
